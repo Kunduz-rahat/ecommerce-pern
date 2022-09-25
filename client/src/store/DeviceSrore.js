@@ -13,6 +13,7 @@ export default class DeviceStore{
 			{id:1, name:"Apple Pro12", price:1230, rating:5, 
 			img:"https://www.google.com/url?sa=i&url=https%3A%2F%2Fsoftech.kg%2Fsmartfon-apple-iphone-13-pro-128gb&psig=AOvVaw3UwAdi2A718TaL04yGMrvY&ust=1663821460479000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCLCHvouIpfoCFQAAAAAdAAAAABAD"}
 		]
+		this._selectedType = {}
 		makeAutoObservable(this)
 	}
 	setTypes(types){
@@ -24,6 +25,10 @@ export default class DeviceStore{
 	setDevices(devices){
 		this._devices = devices
 	}
+	setSelectedType(type){
+		this._selectedType = type
+
+	}
 	get types(){
 		return this._types
 	}
@@ -32,5 +37,8 @@ export default class DeviceStore{
 	}
 	get devices(){
 		return this._devices
+	}
+	get selectedType(){
+return this._selectedType
 	}
 }
