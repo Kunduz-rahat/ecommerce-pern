@@ -5,6 +5,7 @@ import App from './App';
 import { createContext } from "react";
 import UserStore from './store/UserStore';
 import DeviceStore from './store/DeviceSrore';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 export const Context = createContext(null)
 const root = ReactDOM.createRoot(document.getElementById('root'));
