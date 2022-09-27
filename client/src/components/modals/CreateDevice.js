@@ -12,7 +12,7 @@ export default function CreateDevice({show, onHide}) {
  >
 	<Modal.Header closeButton>
 	  <Modal.Title id="contained-modal-title-vcenter">
-		 Добавить тип
+		 Добавить устройство
 	  </Modal.Title>
 	</Modal.Header>
 	<Modal.Body>
