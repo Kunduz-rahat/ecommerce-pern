@@ -36,8 +36,9 @@ style={{width:300, height:300, fontSize:32, border:"5px solid light"}}>
 </Col>
    </Row>
   <Row className='d-flex flex-column mt-3'>
-    {description.map(info=>
-    <Row key={info.id}>
+   <h3>Характеристики :</h3>
+    {description.map((info)=>
+    <Row key={info.id} >
 {info.title}: {info.description}
      </Row>
     )}
