@@ -4,10 +4,11 @@ import './index.css';
 import App from './App';
 import { createContext } from "react";
 import UserStore from './store/UserStore';
-import DeviceStore from './store/DeviceSrore';
+import DeviceStore from './store/DeviceStore';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 export const Context = createContext(null)
+console.log(process.env.REACT_APP_API_URL)
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <Context.Provider value={{
