@@ -13,7 +13,7 @@ import { DEVICE_ROUTE } from '../utils/const';
 	 <Card style={{width:150,  cursor:"pointer"}} border={"light"}>
 <Image width={150} height={150} src={process.env.REACT_APP_API_URL + device.img}/>
 <div className='text-black-50 d-flex justify-content-between align-items-center mt-3'>
-	<div>Samsung</div>
+	<div>{device.brandId}</div>
 	<div className='align-items-center'>
 	{device.rating}
 		<AiFillStar/>
