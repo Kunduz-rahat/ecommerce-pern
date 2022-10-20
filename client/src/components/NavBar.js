@@ -19,8 +19,9 @@ const NavBar= observer(() =>{
 		user.setIsAuth(false)
 	}
   return (
-	<Navbar bg="dark" variant="dark">
 	<Container>
+	<Navbar bg="dark" variant="dark">
+	
 	<NavLink style={{color:'white'}} to={SHOP_ROUTE}>КупиДевайс</NavLink>
 	  {user.isAuth?
 		<Nav className="ms-auto"  style={{color:'white'}}>
@@ -34,10 +35,11 @@ const NavBar= observer(() =>{
 	  </Nav>
 	  }
 	  
-	</Container>
+	
 	 
 	
  </Navbar>
+ </Container>
   )
 })
 export default  NavBar;
