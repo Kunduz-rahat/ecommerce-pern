@@ -11,7 +11,6 @@ const CreateType = ({show, onHide}) => {
 			  onHide()
 		 })
 	}
-
 	return (
 		 <Modal
 			  show={show}
