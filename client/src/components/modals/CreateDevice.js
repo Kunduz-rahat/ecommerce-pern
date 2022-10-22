@@ -2,7 +2,7 @@ import React, { useContext, useState, useEffect } from 'react';
 import {Modal, Button, Form , Dropdown, Row, Col} from 'react-bootstrap';
 import {Context} from '../../index';
 import {observer} from 'mobx-react-lite';
-import { createDevice, fetchBrands, fetchDevices, fetchTypes  } from '../../http/deviceApi';
+import { createDevice, fetchBrands,  fetchTypes  } from '../../http/deviceApi';
 
 const CreateDevice = observer(({show, onHide}) => {
 	const {device} = useContext(Context)
@@ -12,7 +12,7 @@ const CreateDevice = observer(({show, onHide}) => {
 	const [info, setInfo] = useState([])
 
 	useEffect(() => {
-		 fetchTypes().then(data => device.setTypes(data))
+		 fetchTypes().then(data => device.setTypes(data)) 
 		 fetchBrands().then(data => device.setBrands(data))
 	}, [])
 
@@ -68,7 +68,7 @@ const CreateDevice = observer(({show, onHide}) => {
 							  </Dropdown.Menu>
 						 </Dropdown>
 						 <Dropdown className="mt-2 mb-2">
-							  <Dropdown.Toggle>{device.selectedBrand.name || "Выберите бренд"}</Dropdown.Toggle>
+							  <Dropdown.Toggle>{device.selectedBrand.name || "Выберите тип"}</Dropdown.Toggle>
 							  <Dropdown.Menu>
 									{device.brands.map(brand =>
 										 <Dropdown.Item
