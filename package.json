@@ -1,26 +1,20 @@
 {
-  "name": "server",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "dev": "nodemon index.js"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "bcrypt": "^5.0.1",
-    "cors": "^2.8.5",
-    "dotenv": "^16.0.2",
-    "express": "^4.18.1",
-    "express-fileupload": "^1.4.0",
-    "jsonwebtoken": "^8.5.1",
-    "pg": "^8.8.0",
-    "pg-hstore": "^2.3.4",
-    "sequelize": "^6.21.4",
-    "uuid": "^9.0.0"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.19"
-  }
-}
+	3    "name": "ecommerce-pern",
+	4    "version": "1.0.0",
+	5    "description": "",
+	6    "scripts": {
+	7        "build": "echo \"No build specified\" && exit 1",
+	8        "test": "echo \"No test specified\" && exit 1",
+	9        "start": "node index.js"
+	10    },
+	11    "repository": {
+	12        "type": "git",
+	13        "url": "git+https://github.com/Kunduz-rahat/ecommerce-pern.git"
+	14    },
+	15    "author": "",
+	16    "license": "ISC",
+	17    "bugs": {
+	18        "url": "https://github.com/Kunduz-rahat/ecommerce-pern/issues"
+	19    },
+	20    "homepage": "https://github.com/Kunduz-rahat/ecommerce-pern#readme"
+	21}
