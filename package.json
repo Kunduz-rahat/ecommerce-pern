@@ -1,20 +1,18 @@
 {
-	3    "name": "ecommerce-pern",
-	4    "version": "1.0.0",
-	5    "description": "",
-	6    "scripts": {
-	7        "build": "echo \"No build specified\" && exit 1",
-	8        "test": "echo \"No test specified\" && exit 1",
-	9        "start": "node index.js"
-	10    },
-	11    "repository": {
-	12        "type": "git",
-	13        "url": "git+https://github.com/Kunduz-rahat/ecommerce-pern.git"
-	14    },
-	15    "author": "",
-	16    "license": "ISC",
-	17    "bugs": {
-	18        "url": "https://github.com/Kunduz-rahat/ecommerce-pern/issues"
-	19    },
-	20    "homepage": "https://github.com/Kunduz-rahat/ecommerce-pern#readme"
-	21}
+	   "name": "ecommerce-pern",
+	  "version": "1.0.0","description": "","scripts": {
+      "build": "echo \"No build specified\" && exit 1",
+       "test": "echo \"No test specified\" && exit 1",
+	      "start": "node index.js"
+	   },
+	   "repository": {
+	       "type": "git",
+	       "url": "git+https://github.com/Kunduz-rahat/ecommerce-pern.git"
+	    },
+	  "author": "",
+	   "license": "ISC",
+	    "bugs": {
+	        "url": "https://github.com/Kunduz-rahat/ecommerce-pern/issues"
+	    },
+	    "homepage": "https://github.com/Kunduz-rahat/ecommerce-pern#readme"
+		}
