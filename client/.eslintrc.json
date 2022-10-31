@@ -1,0 +1,37 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true
+    },
+    "extends": [
+        "eslint:recommended",
+        "plugin:react/recommended",
+        "plugin:prettier/recommended",
+        "prettier"
+    ],
+    "overrides": [
+    ],
+    "parserOptions": {
+        "ecmaVersion": "latest",
+        "sourceType": "module"
+    },
+    "plugins": [
+        "react"
+    ],
+    "rules": { "prettier/prettier": ["error", { "endOfLine": "auto" }]  
+    
+    },
+    "editor.formatOnPaste": false,
+    "editor.formatOnSave": true,
+    "[javascript]": {
+    "editor.formatOnSave": true
+     },
+    "[html]": {
+    "editor.formatOnSave": false
+     },
+    "[json]": {
+    "editor.formatOnSave": false
+     },
+    "eslint.autoFixOnSave": true,
+    "eslint.alwaysShowStatus": true
+}
